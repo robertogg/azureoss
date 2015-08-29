@@ -5,7 +5,7 @@ function controllers(params) {
             Tasks.find({}).nor([{ status: 'Completed' }, { completion: 100 }]).sort('-startDate').exec(function (err, tasks) {
             res.render('index', {
                 page: 'index',
-                title: 'Task Manager - ToDo List',
+                title: 'Task Manager - ToDo List V1',
                 tasks: tasks
             });
         });
