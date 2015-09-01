@@ -1,0 +1,2 @@
+C:\Proyectos\Charlas\Microsoft WE\demo\NodejsWebAppTasks\NodejsWebAppTasks\obj\Debug\NodejsWebAppTasks.njsprojResolveAssemblyReference.cache
+C:\Proyectos\Charlas\Microsoft WE\demo\NodejsWebAppTasks\NodejsWebAppTasks\bin\Microsoft.NodejsTools.WebRole.dll

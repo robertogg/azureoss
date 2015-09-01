@@ -5,7 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>NodejsWebAppTasks</Name>
     <RootNamespace>NodejsWebAppTasks</RootNamespace>
-    <NameOfLastUsedPublishProfile>azureossdemo</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>azureoss2</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -43,6 +43,7 @@
     <Compile Include="routes.js" />
     <Compile Include="server.js" />
     <None Include="azureossdemo.pubxml" />
+    <None Include="azureoss2.pubxml" />
     <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
     <Content Include="favicon.ico" />
     <Content Include="public\img\glyphicons-halflings-white.png" />
